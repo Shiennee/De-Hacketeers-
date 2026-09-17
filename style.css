@@ -1,0 +1,121 @@
+
+/*heading*/
+
+body {background-color:black;}
+header {background-color: #d4e1e7;
+background-image:url(bg2.png);
+background-repeat: no-repeat;
+background-position:bottom;}
+
+h1 { 
+    color: #81d1a5; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+form {
+    background-color: #ccc;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+fieldset{color: #254b5a;}
+h2{
+    font-family:"times new romans";
+    color:cornflowerblue}
+
+caption {font-weight: bold;}
+
+
+table {
+        background-color: #f8f2ef;
+            border: 3px solid #dec3b3; }
+
+dt {font-weight: bold;}
+
+th{font-weight: bold;}
+
+/*table*/
+
+table :hover {
+        background-color: #ffedd1;
+            border: 3px solid #FE9179 }
+
+.services {
+    text-align: center;
+}
+
+tfoot{
+    font-weight: bold;
+}
+thead {
+    background-color: #d2dce4;
+}
+
+/*accesibility*/
+nav {text-align: right;
+    }
+nav a {
+        text-decoration: none;
+        padding:0.2em 0.6em;
+        border: 4px solid #ccc;
+        color: #81d1a5;
+        }
+
+nav a:hover {
+    background-color: rgb(187, 246, 92);
+    border-color: darkblue;}
+    
+search {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/*link*/
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    background-image: url("footer.png");
+    background-repeat: no-repeat;
+    background-position:bottom;
+    color: white;
+}
+
+/*additional style*/
+#Index ,#Jobs, #About {
+        position: relative;
+        text-align: center;
+        color: rgb(228, 214, 195);
+        font-size:x-large;
+        }
+#Apply {text-align: center;}
+hr {border-color: #7F9A83;}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: white;
+}
+.Main {border-color: #254b5a;
+    color: no fill;
+    text-align: center;
+    font-size: xx-large;
+    }
+section {color: #B2EAA2;}
+aside {float: right;}
