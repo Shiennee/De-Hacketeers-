@@ -15,7 +15,7 @@ h2{
 p{
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
-    color: black;
+    color:black;
 }
 table :hover {
         background-color:  rgb(5, 32, 9);
@@ -29,7 +29,8 @@ header h1 {color:#81d1a5; float:left; text-align:right; margin:bottom }
 
 header img {float:left}
 
-header search {text-align: center;}
+header search {text-align: center;
+background-color:no fill}
 
 nav {float:right; margin: bottom;padding-top: 2em;}
 
@@ -45,6 +46,7 @@ nav a:hover {font-family: cursive;
             background-color: rgb(187, 246, 92);
             border-color: darkblue;}
 ol,ul {list-style-type: square;}
+
 /*index*/
 
 tfoot{
@@ -55,12 +57,14 @@ thead {
 }
 
 main {
-background-color: rgb(43, 42, 42)}
+background-color #f3f3f3;;
+color: black;}
+
 
 
 .description {
     text-align: center;
-    background-color: rgb(218, 117, 92) ;
+    background-color: rgb(211, 180, 172) ;
     background-repeat: no-repeat;
     position: relative;
     max-width: 900px;
@@ -69,12 +73,12 @@ background-color: rgb(43, 42, 42)}
 
 .description img {
     float:right;
-position: relative;
+    position: relative;top: -30px;
 
-clear:both;}
+    }
 
 .description p{
-    color:#7f9a83;
+    color:#021305;
 margin-right:auto;}
 
 main table {width: 50%;
@@ -100,10 +104,11 @@ box-shadow: 5px 5px 6px #aaaaaa;
 
 #web{background-color: #DEC3B3; color:#42180e;}
 
-#manager{background-color: #f8f2ef;}
+#manager{background-color: #d2dce4;}
 
 
 /*apply*/
+
 form {
     background-color: #ccc;
     max-width: 70%;
@@ -131,18 +136,24 @@ th{font-weight: bold;}
 
 /*About*/
 
-#About{background-color: rgb(144, 144, 216);
+#About{background-color:rgb(43, 42, 42);
     color:#81d1a5;
     }
 #About th ,td{padding:10px;
             text-align:center}
+
 #About table {float: right;
-color: #42180e;}
+            margin-top: 50px;
+            margin-right: 20px;
+            color: #42180e;
+            width: 60%; height:70%;
+            padding-right: 10px;}
+
 #About table :hover {background-color:  rgb(5, 32, 9);
             border: 3px solid  rgb(35, 59, 165);
             color:#81d1a5}
 
-
+ 
 /* list of things to add*/
 /*
 transition for changing to diff site
