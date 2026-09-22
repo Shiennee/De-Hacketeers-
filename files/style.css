@@ -17,9 +17,6 @@ p{
     text-align: justify;
     color:black;
 }
-table :hover {
-        background-color:  rgb(5, 32, 9);
-            border: 3px solid  rgb(35, 59, 165) }
 
 header {background-color:#f8f8f8;
         width: 100%;
@@ -159,9 +156,21 @@ th{font-weight: bold;}
             width: 60%; height:70%;
             }
 
-#About table :hover {background-color:  rgb(5, 32, 9);
-            border: 3px solid  rgb(35, 59, 165);
-            color:#81d1a5}
+#About table tr:hover {
+    background-color: rgb(5, 32, 9);
+    border: 3px solid rgb(35, 59, 165);
+    color: #81d1a5;
+}
+
+#group {
+    float:right;
+    text-align: right;
+    margin-right: 50px;
+    }
+
+#group h2{margin:right;
+position:relative;}
+
 
 #group {
     float:right;
