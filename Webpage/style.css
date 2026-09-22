@@ -170,7 +170,8 @@ ol,ul{text-align:left;}
             color: #42180e;
             width: 60%; height:70%;
             }
-
+#About td,th {text-align: center;}
+#About th {font-size: larger;color:cornflowerblue;}
 #About table :hover {background-color:  rgb(5, 32, 9);
             border: 3px solid  rgb(35, 59, 165);
             color:#81d1a5}
