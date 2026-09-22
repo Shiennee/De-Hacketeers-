@@ -113,7 +113,7 @@ float:right;
 background-color:#d9f0b0;
 box-shadow: 10px 20px#577e89;
 }
-
+#jobs h2,h3,p,ol,ul {margin-left: 20px;}
 .designer {background-color: #d2dce4; width:60%; color: #577e89;}
 .designer p {color: #051f10;}
 
@@ -171,17 +171,16 @@ ol,ul{text-align:left;}
             width: 60%; height:70%;
             }
 
-#About table tr:hover {background-color:  rgb(5, 32, 9);
+#About table :hover {background-color:  rgb(5, 32, 9);
             border: 3px solid  rgb(35, 59, 165);
             color:#81d1a5}
 
 #group {
     float:right;
     text-align: right;
-    margin-right: 50px;
+    margin-right: 50px;}
 
-    }
-#group h2{margin:right;
-position:relative;}
+#group h2{margin-right: 250px;
+text-align:right;}
 
  
