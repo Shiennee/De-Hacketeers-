@@ -110,13 +110,14 @@ box-shadow: 10px 20px#577e89;
 }
 
 #jobs h2,h3,p,ol,ul {margin-left: 20px;}
-.designer {background-color: #d2dce4; width:80%; color: #577e89;}
-.designer p {color: #051f10;}
+#jobs h2,#jobs h3 {color: #722f37}
+.designer {background-color: #d2dce4; width:80%; color: #295764;}
+.designer p {color: #295764;}
 
 
-.web{background-color: #DEC3B3; color:#42180e;}
+.web{background-color: #DEC3B3; color:#2b0e07;}
 
-.manager{background-color: #d2dce4;}
+.manager{background-color: #d2dce4; color: #063744}
 
 
 /*apply*/
@@ -154,7 +155,7 @@ th{font-weight: bold;}
     border: 5px solid #115380;}
     
 #About h2{
-        color:#062336;
+        color:#021d30;
         margin-left: 1em;}
 
 ol,ul{text-align:left;}
@@ -164,7 +165,7 @@ ol,ul{text-align:left;}
 
 #About th ,td{padding:10px;
             text-align:center}
-
+#About caption {color: #36080e}
 
 #About table {float: right;
             margin-top: 50px;
@@ -174,7 +175,7 @@ ol,ul{text-align:left;}
 
 #About td,th {text-align: center;}
 #About td {font-size: larger;}
-#About th {font-size:x-large; color:cornflowerblue;}
+#About th {font-size:x-large; color: #0d3b66;}
 
 #About table :hover {background-color:  rgb(5, 32, 9);
             border: 3px solid  rgb(35, 59, 165);
