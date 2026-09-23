@@ -12,7 +12,6 @@ h2{
     color:cornflowerblue}
 p{
     font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
     color:black;}
 
 header {background-color:#f8f8f8;
@@ -92,6 +91,7 @@ thead {background-color: #d2dce4;}
     
 
 footer p {background-color: white;
+        font-size:medium;
         display: inline-block; width:30%;}
         footer p:first-child {float: left;margin-left: 10px;}
         footer p:nth-child(2) {text-align: center;}
@@ -154,7 +154,7 @@ th{font-weight: bold;}
     border: 5px solid #115380;}
     
 #About h2{
-        color:#115380;
+        color:#062336;
         margin-left: 1em;}
 
 ol,ul{text-align:left;}
